@@ -19,7 +19,7 @@ li {
     font-weight: 700;
     font-size: 20px;
     border: 0;
-    padding: 15px 20px 25px 20px;
+    padding: 10px 20px 25px 20px;
     margin-top: 10px;
 
 }
@@ -185,4 +185,30 @@ section {
 .cv-button {
    margin-top: 30px;
    text-align: center;
+}
+
+/* Contact styles */
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+.contact .section-title{
+    text-align: left;
+}
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+input{
+    height: 64px;
+}
+.contact a{
+    text-decoration: none;
+}
+a{
+    margin-right: 20px;
 }
